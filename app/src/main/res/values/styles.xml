@@ -40,5 +40,6 @@
 
     <style name="AppTheme.AlertDialogTheme" parent="Theme.AppCompat.DayNight.Dialog.Alert">
         <item name="android:windowBackground">@drawable/dialog_background</item>
+        <item name="dialogCornerRadius">16dp</item>
     </style>
 </resources>
