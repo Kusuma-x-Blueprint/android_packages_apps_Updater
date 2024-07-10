@@ -16,6 +16,6 @@ public final class BuildInfoUtils {
     }
 
     public static String getBuildVersion() {
-        return SystemProperties.get(Constants.PROP_BUILD_VERSION);
+        return SystemProperties.get(Constants.PROP_EXTRA_BUILD_VERSION);
     }
 }
